@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+   --color-dark-cyan: #19a2ae;
+   --Very-dark-desaturated-blue: #2d3248;
+   --Dark-grayish-blue: #6a6f81;
+   --Dark-gray: #969696;
+}
+body {
+   padding: 0;
+   margin: 0 auto;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+   font-family: "Kumbh Sans";
+   font-size: 18px;
+}
+
+header {
+   margin: 0 auto;
+   background-color: var(--color-dark-cyan);
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   position: relative;
+   flex-direction: column;
+   justify-content: center;
+}
+header .tpo-img,
+header .bottom-img {
+   position: absolute;
+   overflow: hidden;
+   width: 900px;
+   height: 900px;
+}
+header .tpo-img {
+   top: -385px;
+   left: 20px;
+}
+header .bottom-img {
+   bottom: -450px;
+   right: 25px;
+}
+
+header .card {
+   min-width: 350px;
+   height: 375px;
+   z-index: 1000;
+   display: flex;
+   flex-direction: column;
+   border-radius: 15px;
+   background-color: #fff;
+   overflow: hidden;
+   align-items: center;
+   text-align: center;
+}
+
+.card-body img {
+   width: 100px;
+   height: 100px;
+   border-radius: 60px;
+   margin-top: -60px;
+   border: 5px #fff solid;
+}
+.card-body h2 {
+   font-weight: 700;
+   font-size: 1em;
+   color: var(--Very-dark-desaturated-blue);
+   margin: 16px auto 12px auto;
+}
+.card-body h2 span {
+   font-size: 1em;
+   font-weight: 400;
+   color: var(--Dark-grayish-blue);
+   margin-left: 5px;
+}
+.card-body h5 {
+   font-size: 0.8em;
+   margin-top: 0px;
+   font-weight: 400;
+   color: var(--Dark-grayish-blue);
+   margin-bottom: 10px;
+}
+
+.card hr {
+   height: 1px;
+   border: none;
+   background-color: var(--Dark-gray);
+   width: 100%;
+   opacity: 0.3;
+}
+
+.card .card-footer {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+   width: 100%;
+   justify-content: space-evenly;
+}
+.card .card-footer .col {
+   margin-top: 8px;
+}
+
+.card .card-footer h4,
+.card .card-footer p {
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.card .card-footer p {
+   font-size: 10px;
+   font-weight: 400;
+   letter-spacing: 2px;
+   color: var(--Dark-grayish-blue);
+}
+.attribution {
+   margin-top: 450px;
+   position: absolute;
+}
