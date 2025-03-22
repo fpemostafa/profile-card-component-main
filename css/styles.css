@@ -13,10 +13,12 @@ body {
    scroll-behavior: smooth;
    font-family: "Kumbh Sans";
    font-size: 18px;
+   background-color: var(--color-dark-cyan);
 }
 
 header {
    margin: 0 auto;
+   max-width: 1440px;
    background-color: var(--color-dark-cyan);
    height: 100vh;
    display: flex;
@@ -34,11 +36,11 @@ header .bottom-img {
 }
 header .tpo-img {
    top: -385px;
-   left: 20px;
+   left: -180px;
 }
 header .bottom-img {
    bottom: -450px;
-   right: 25px;
+   right: -180px;
 }
 
 header .card {
